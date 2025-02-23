@@ -28,7 +28,7 @@ environ.Env.read_env()
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env('SECRET_KEY',default='django-insecure-gorhgq1m8f)e_r7ib(^q84w*i+0_gj$*^p@7&#p!%9-*=b&jp2')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
